@@ -46,7 +46,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin: auto;
+
     max-width: 70%;
     color: $color-two;
 }
@@ -100,6 +100,7 @@ i {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0;
 }
 
 .box-services {
@@ -120,16 +121,40 @@ i {
 
 .box-portfolio {
     min-height: 200px;
-    padding: 15px;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .portfolio-tile {
-    margin: 10px;
 }
 
 .portfolio-tile img {
     width: 70%;
     height: 90%;
     object-fit: cover;
+}
+
+/* footer */
+
+.footer {
+    margin: 20px;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    display: inline-block;
+    font-size: 0;
+}
+
+.footer i {
+    color: $color-one;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
 }
