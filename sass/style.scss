@@ -14,20 +14,34 @@ body {
 
 /* Navigation */
 
-.navigation p {
+.navigation ul li a {
     color: $color-one;
-    font-family: $font-header;
-    font-size: 30px;
+    font-size: 40px;
+    text-decoration: none;
 }
 
 .navigation li {
+    font-family: $font-header;
+    text-decoration: none;
     display: inline;
 }
 
-.navigation a {
-    text-decoration: none;
+.navigation ul ul {
+    display: none;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.navigation ul li:hover ul {
+    text-align: center;
+    display: inline-flex;
+}
+
+.navigation ul ul a {
     color: $color-two;
-    margin-right: 10px 10px;
+    font-family: $font-header;
+    font-size: 20px;
+    padding: 20px 10px;
 }
 
 /* Splash */
@@ -86,7 +100,7 @@ i {
 }
 
 .section-title {
-    font-size: 48px;
+    font-size: 32px;
     padding-top: 50px;
     font-weight: bold;
 }
@@ -157,4 +171,9 @@ i {
     height: 60px;
     line-height: 60px;
     border-radius: 50%;
+}
+
+.box-footer {
+    text-align: center;
+    justify-content: center;
 }
