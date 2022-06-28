@@ -1,3 +1,19 @@
 /* Variables */
+/* Navigation */
+.navigation p {
+  color: #f1c40f;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 30px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+.navigation li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBT0EsZUFBQTtBQUVBO0VBQ0ksY0FOUTtFQU9SLHlDQVRVO0VBVVYsZUFBQTtBQ05KOztBRFNBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0FDTko7O0FEU0E7RUFDSSxxQkFBQTtFQUNBLGNBakJRO0FDV1oiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

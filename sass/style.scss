@@ -2,3 +2,23 @@
 
 $font-header: "Dancing Script", sans-serif;
 $font-text: "Roboto Slab", sans-serif;
+$color-one: #f1c40f;
+$color-two: #ffffff;
+
+/* Navigation */
+
+.navigation p {
+    color: $color-one;
+    font-family: $font-header;
+    font-size: 30px;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: $color-two;
+}
