@@ -4,10 +4,12 @@ $font-header: "Dancing Script", sans-serif;
 $font-text: "Roboto Slab", sans-serif;
 $color-one: #f1c40f;
 $color-two: #ffffff;
+$color-three: #f0f0f0;
 
 body {
     font-family: $font-text;
     text-align: center;
+    margin: 0;
 }
 
 /* Navigation */
@@ -85,12 +87,13 @@ i {
 
 .section-title {
     font-size: 48px;
-    margin-top: 50px;
+    padding-top: 50px;
     font-weight: bold;
 }
 
 .section-subtitle {
     font-style: italic;
+    padding-bottom: 50px;
 }
 
 .row {
@@ -100,7 +103,7 @@ i {
 }
 
 .box-services {
-    padding: 20px;
+    padding: 20px 20px 50px;
 }
 
 .box-title {
@@ -110,6 +113,10 @@ i {
 }
 
 /* Portfolio */
+
+.portfolio {
+    background-color: $color-three;
+}
 
 .box-portfolio {
     min-height: 200px;
