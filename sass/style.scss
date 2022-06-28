@@ -5,6 +5,10 @@ $font-text: "Roboto Slab", sans-serif;
 $color-one: #f1c40f;
 $color-two: #ffffff;
 
+body {
+    font-family: $font-text;
+}
+
 /* Navigation */
 
 .navigation p {
@@ -21,4 +25,27 @@ $color-two: #ffffff;
 .navigation a {
     text-decoration: none;
     color: $color-two;
+    margin-right: 30px;
+}
+
+/* Splash */
+
+.splash {
+    height: 80vh;
+    background-image: url("https://images.pexels.com/photos/1447252/pexels-photo-1447252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+}
+
+.splash-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-items: center;
+}
+.page-title {
+    justify-content: center;
 }
